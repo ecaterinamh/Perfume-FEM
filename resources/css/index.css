@@ -30,8 +30,8 @@ body {
 
 /* card styling */
 .main {
-  max-width: 45rem;
-  min-width: 32rem;
+  max-width: 30rem;
+  min-width: 25rem;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -58,29 +58,30 @@ body {
 }
 
 .right > .text {
-  padding: 2.5rem;
+  padding: 1.4rem;
 }
 
 .right .info {
   color: #6c7289;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
+  font-size: 0.65rem;
 }
 
 .right h2 {
   font-family: "Fraunces", serif;
   font-weight: 800;
-  font-size: 2.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
   color: #1c232b;
 }
 
 .right .details {
-  font-size: 1.05rem;
+  font-size: 0.75rem;
   letter-spacing: 0rem;
-  line-height: 1.6rem;
+  line-height: 1.2rem;
   color: #7e7e85;
   margin-bottom: 1.5rem;
 }
@@ -93,13 +94,13 @@ body {
 .price1 {
   font-family: var(--font-family-fraunces);
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   color: #3c8067;
   letter-spacing: 0.1;
 }
 
 .price2 {
-  font-size: 1rem;
+  font-size: 0.7rem;
   color: #7e7e85;
   padding-left: 15px;
   vertical-align: super;
@@ -110,15 +111,15 @@ body {
 button {
   width: 100%;
   height: auto;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1rem;
   display: block;
   cursor: pointer;
   background-color: #3c8067;
   color: white;
   font-family: var(--font-family-montserrat);
   font-weight: 600;
-  font-size: 1rem;
-  border-radius: var(--border-radius-sm);
+  font-size: 0.7rem;
+  border-radius: 8px;
   border: unset;
   margin-top: 1.5rem;
   transition: background-color 0.5s;
@@ -127,6 +128,7 @@ button {
 button img {
   padding-right: 10px;
   vertical-align: middle;
+  width: 14px;
 }
 
 button:hover {
@@ -153,15 +155,12 @@ a:active {
 /* media queries for tablet screen */
 @media only screen and (max-width: 1025px) {
   .main {
-    max-width: 45rem;
-    min-width: 20rem;
-    height: auto;
     margin-top: 2rem;
   }
 }
 
 /* media queries for small screens and mobile*/
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 560px) {
   .main {
     max-width: 20rem;
     min-width: 15rem;
